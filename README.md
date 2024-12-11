@@ -1,6 +1,6 @@
 ## CHITRANAGARI : SMART CITY DESIGN 
 
-### Business Cases identified by Drishti R N (01FE23BCS032)
+## Business Cases identified by Drishti R N (01FE23BCS032)
 
 1. **POPULATION DENSITY AND DATA**👨‍👩‍👧‍👦
       - Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan(referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.
@@ -18,8 +18,8 @@
 
 
 
-###COURSE LEARNING REFLECTIONS 
-
+## COURSE LEARNING REFLECTIONS 
+---
  ### 1. Iteration, Recursion, and Backtracking  
 In nature , we come across many kinds of problems that could be solved using algorithm techniques that includes iteration , recursion , backtracking  
 
