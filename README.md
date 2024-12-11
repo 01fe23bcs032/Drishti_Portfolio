@@ -21,19 +21,19 @@
 ## COURSE LEARNING REFLECTIONS 
 ---
  ### 1. Iteration, Recursion, and Backtracking  
-In nature , we come across many kinds of problems that could be solved using algorithm techniques that includes iteration , recursion , backtracking  
+- In nature , we come across many kinds of problems that could be solved using algorithm techniques that includes iteration , recursion , backtracking.
 
 #### **Iteration**  
-Iteration involves repeating a task multiple times in a process. 
-For example, spiral arrangements of petals in flower or arranging Matryoshka dolls involves repeating the same action—forming a flower or nesting the dolls—until there isno more space left or dolls to handle.
+- Iteration involves repeating a task multiple times in a process. 
+- For example, spiral arrangements of petals in flower or arranging Matryoshka dolls involves repeating the same action—forming a flower or nesting the dolls—until there isno more space left or dolls to handle.
 
 #### **Recursion**  
-Recursion involves solving a problem by breaking it down into smaller groups of the same problem.  
-For instance, cell division process and food chain also involves recurssion 
+- Recursion involves solving a problem by breaking it down into smaller groups of the same problem.  
+- For instance, cell division process and food chain also involves recurssion 
 
 #### **Backtracking**  
-Backtracking explores multiple possibilities, retracing steps when a chosen path doesnt leads to a desired result.  
-Examples include solving Sudoku puzzles or tackling the N-Queens problem. In these situations, the process involves trial and error, testing one path at a time and reverting to earlier steps when necessary.
+- Backtracking explores multiple possibilities, retracing steps when a chosen path doesnt leads to a desired result.  
+- Examples include solving Sudoku puzzles or tackling the N-Queens problem. In these situations, the process involves trial and error, testing one path at a time and reverting to earlier steps when necessary.
 
 ---
 
@@ -53,12 +53,12 @@ The growth can be constant, logarithmic, linear, quadratic, or cubic, depending 
 
 ### 3. Design Principles  
 
-Different design principles are developed to optimize problems, and selecting the right principle for a given problem is essential for efficiency.  
+- Different design principles are developed to optimize problems, and selecting the right principle for a given problem is essential for efficiency.  
 For example:  
 - **Pruning** is ideal for solving the N-Queens problem, but **Parental Dominance** would not be suitable.  
 - **Bit Manipulation** is used in Fenwick Trees, whereas **Edge Relaxation** is applied in spanning trees.  
 
-Applying the wrong principle complicates the problem rather than simplifying it, underscoring the importance of matching the design principle to the problem.
+- Applying the wrong principle complicates the problem rather than simplifying it, underscoring the importance of matching the design principle to the problem.
 
 ---
 
@@ -73,25 +73,38 @@ Tree structures are designed for hierarchical data organization. Where elements 
 
 ### 5. Array Query Algorithms  
 
-Array query algorithms are effective for small and static datasets, such as finding the sum, minimum, maximum, or other properties over a range of indices.
-These algorithms leverage **pre-computation** by storing previously calculated results to avoid redundant calculations.  
-Structures like Segment Trees,Sparse Tables and Fenwick Trees use this principle, making them efficient for array queries.
+- Array query algorithms are effective for small and static datasets, such as finding the sum, minimum, maximum, or other properties over a range of indices.
+- These algorithms leverage **pre-computation** by storing previously calculated results to avoid redundant calculations.  
+- Structures like Segment Trees,Sparse Tables and Fenwick Trees use this principle, making them efficient for array queries.
 
 ---
 ### 6. Difference between trees and graphs 
-Trees are hierarchical data structures with n nodes and n−1 edges, where each node has a single root to node path, making them acyclic. Traversals include Inorder, Preorder, and Postorder.
-DFS and BFS are also used in tree traversals.
-Graphs on the other hand, are generalized structures where nodes(vertices) connect through edges, which can form cycles and can be directed or undirected.
-Its applications include navigation systems and other network purposes.
+- **Trees** are hierarchical data structures with n nodes and n−1 edges, where each node has a single root to node path, making them acyclic. Traversals include Inorder, Preorder, and Postorder.
+- DFS and BFS are also used in tree traversals.
+  
+- **Graphs** on the other hand, are generalized structures where nodes(vertices) connect through edges, which can form cycles and can be directed or undirected.
+- Its applications include navigation systems and other network purposes.
 
 ---
 ### 7. Sorting and Searching algorithms 
-Sorting algorithms organize data for efficient access and manipulation.
-They include sorting techniques like quick sort, merge sort, Bubble Sort
-Searching algorithms locate data within structures
-They include searching techniques binary search and linear search.
+- Sorting algorithms organize data for efficient access and manipulation.
+- They include sorting techniques like Quick sort, Merge sort, Bubble Sort and Insertion sort.
+ 
+- Searching algorithms locate data within structures.
+- They include searching techniques like
+   - **Rabin-Karp**
+   - **Knuth-Morris-Pratt**
+   - **Boyer-Moore**
 
 ---
 ### 8. Graph algorithms
 Graph algorithms solve essential problems in connectivity and optimization.
-These algorithms include 
+- Spanning tree uses various algorithms to find the shortest path between source to destination.
+- **Kruskal** finds the shortest path by visiting all nodes.
+- **Dijkstra** uses cost matrix to find the shortest path but need not visit all the nodes.
+- **Warshall** shows if there is a path from one node to other.
+- **Floyd** shows if there is a shortest path from one node to other.
+- **Bellman-Ford** can find path with negative weight cycles also which was not available in Dijkstra.
+
+
+
