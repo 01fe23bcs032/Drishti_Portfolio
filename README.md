@@ -108,16 +108,27 @@ Graph algorithms solve essential problems in connectivity and optimization.
 
 ---
 ## RELATED SDG'S, TARGET AND INDICATOR TO BUISNESS CASES 
-1. **POPULATION DENSITY AND DATA**
-   - **Goal-11** : Sustainable Cities and Communities
+1. **TRAFFIC MANAGEMENT AND DATA**
+   - **SDG Goal-11** : Sustainable Cities and Communities
 Sustainable traffic systems promote urban accessibility, reduce congestion, and improve public transport.
-   - **
+   - **SDG Target 11.2** : By 2030, provide access to safe, affordable, accessible, and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities, and older persons.
+
+- **SDG Indicator**:
+   - **Indicator 11.2.1**: Proportion of population that has convenient access to public transport, by sex, age, and persons with disabilities.
   
 2. **Water Supply and Management**
-- **SDG Goal-6** : Clean Water and Sanitation
+   - **SDG Goal-6** : Clean Water and Sanitation
 Ensures the availability and sustainable management of water for all.
-- **SDG Target 6.4** : By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.
+   - **SDG Target 6.4** : By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.
 
-- **SDG Indicator**: - **Indicator 6.4.1**: Change in water-use efficiency over time.
-                     - **Indicator 6.4.2**: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources.
+   - **SDG Indicator**:
+     - **Indicator 6.4.1**: Change in water-use efficiency over time.
+     - **Indicator 6.4.2**: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources.
 
+2. **POPULATION DENSITY AND DATA**
+   - **SDG Goal-1**: No Poverty
+Data on population density informs strategies to allocate resources and reduce poverty.
+   - **SDG Target 1.5**: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social, and environmental shocks and disasters.
+   - **SDG Indicator**:
+           - **Indicator 1.5.1**: Number of deaths, missing persons, and persons affected by disaster per 100,000 population.
+           - **Indicator 1.5.3**: Number of countries with national and local disaster risk reduction strategies.
