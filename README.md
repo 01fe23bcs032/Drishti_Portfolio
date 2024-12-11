@@ -114,10 +114,10 @@ Sustainable traffic systems promote urban accessibility, reduce congestion, and 
    - **
   
 2. **Water Supply and Management**
-   - **SDG Goal-6** : Clean Water and Sanitation
+- **SDG Goal-6** : Clean Water and Sanitation
 Ensures the availability and sustainable management of water for all.
-   - **SDG Target 6.4** : By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.
+- **SDG Target 6.4** : By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.
 
 - **SDG Indicator**: - **Indicator 6.4.1**: Change in water-use efficiency over time.
-- **Indicator 6.4.2**: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources.
+                     - **Indicator 6.4.2**: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources.
 
