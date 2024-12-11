@@ -113,8 +113,8 @@ Graph algorithms solve essential problems in connectivity and optimization.
 Sustainable traffic systems promote urban accessibility, reduce congestion, and improve public transport.
    - **SDG Target 11.2** : By 2030, provide access to safe, affordable, accessible, and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities, and older persons.
 
-- **SDG Indicator**:
-   - **Indicator 11.2.1**: Proportion of population that has convenient access to public transport, by sex, age, and persons with disabilities.
+   - **SDG Indicator**:
+     - **Indicator 11.2.1**: Proportion of population that has convenient access to public transport, by sex, age, and persons with disabilities.
   
 2. **Water Supply and Management**
    - **SDG Goal-6** : Clean Water and Sanitation
@@ -130,5 +130,5 @@ Ensures the availability and sustainable management of water for all.
 Data on population density informs strategies to allocate resources and reduce poverty.
    - **SDG Target 1.5**: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social, and environmental shocks and disasters.
    - **SDG Indicator**:
-           - **Indicator 1.5.1**: Number of deaths, missing persons, and persons affected by disaster per 100,000 population.
-           - **Indicator 1.5.3**: Number of countries with national and local disaster risk reduction strategies.
+      - **Indicator 1.5.1**: Number of deaths, missing persons, and persons affected by disaster per 100,000 population.
+      - **Indicator 1.5.3**: Number of countries with national and local disaster risk reduction strategies.
