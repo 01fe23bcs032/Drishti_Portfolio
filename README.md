@@ -84,12 +84,14 @@ DFS and BFS are also used in tree traversals.
 Graphs on the other hand, are generalized structures where nodes(vertices) connect through edges, which can form cycles and can be directed or undirected.
 Its applications include navigation systems and other network purposes.
 
+---
 ### 7. Sorting and Searching algorithms 
 Sorting algorithms organize data for efficient access and manipulation.
 They include sorting techniques like quick sort, merge sort, Bubble Sort
 Searching algorithms locate data within structures
 They include searching techniques binary search and linear search.
 
+---
 ### 8. Graph algorithms
 Graph algorithms solve essential problems in connectivity and optimization.
 These algorithms include 
