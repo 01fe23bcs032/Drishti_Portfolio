@@ -13,8 +13,8 @@
 
 
 3. **TRAFFIC DATA AND MANAGEMENT**🚦
--Chitranagari, surrounded by a desert landscape, faces unique challenges in maintaining road infrastructure. The harsh climatic conditions, including occasional sandstorms, can degrade road surfaces over time which not only impact quality of roads but also contribute to traffic congestion.
--To accommodate the increasing population and ensure smooth transport, a systematic traffic management approach is crucial. Proper planning of road networks, allocation of dedicated lanes, and efficient traffic flow systems will be essential to decrease congestion.
+      -Chitranagari, surrounded by a desert landscape, faces unique challenges in maintaining road infrastructure. The harsh climatic conditions, including occasional sandstorms, can degrade road surfaces over time which not only impact quality of roads but also contribute to traffic congestion.
+      -To accommodate the increasing population and ensure smooth transport, a systematic traffic management approach is crucial. Proper planning of road networks, allocation of dedicated lanes, and efficient traffic flow systems will be essential to decrease congestion.
 
 
 
