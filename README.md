@@ -3,12 +3,12 @@
 ### Business Cases identified by Drishti R N (01FE23BCS032)
 
 1. **POPULATION DENSITY AND DATA**👨‍👩‍👧‍👦
--Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan(referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.
--To effectively manage Chitranagari's unique geographic and economic profile, strategic urban planning is essential. This would mainly include the proper management of population as it is still a growing city in terms of population.
+      - Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan(referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.
+      - To effectively manage Chitranagari's unique geographic and economic profile, strategic urban planning is essential. This would mainly include the proper management of population as it is still a growing city in terms of population.
 
 2. **WATER SUPPLY AND MANAGEMENT**🌦️
--Located in Rajasthan, Chitranagari is a victim of extreme weather conditions that significantly influence water availability. The region experiences scorching summers, leading to high evaporation rates and increased water demand. Winters, though milder, see limited rainfall. 
--Water availability is naturally constrained due to the desert landscape, with limited surface water bodies and declining groundwater levels. Compared to other states, Rajasthan's overall water resources are significantly lower, making water a precious commodity.  
+    - Located in Rajasthan, Chitranagari is a victim of extreme weather conditions that significantly influence water availability. The region experiences scorching summers, leading to high evaporation rates and increased water demand. Winters, though milder, see limited rainfall. 
+     - Water availability is naturally constrained due to the desert landscape, with limited surface water bodies and declining groundwater levels. Compared to other states, Rajasthan's overall water resources are significantly lower, making water a precious commodity.  
 -In Chitranagari, ensuring sufficient water supply is critical to support its growing population, vibrant tourism sector, and the overall quality of life for residents. 
 
 
