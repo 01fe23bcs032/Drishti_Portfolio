@@ -88,7 +88,11 @@ Tree structures are designed for hierarchical data organization. Where elements 
 ---
 ### 7. Sorting and Searching algorithms 
 - Sorting algorithms organize data for efficient access and manipulation.
-- They include sorting techniques like Quick sort, Merge sort, Bubble Sort and Insertion sort.
+- They include sorting techniques like
+   - **Quick sort**
+   - **Merge sort**
+   - **Bubble Sort**
+   - **Insertion sort**
  
 - Searching algorithms locate data within structures.
 - They include searching techniques like
