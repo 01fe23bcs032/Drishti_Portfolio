@@ -106,5 +106,18 @@ Graph algorithms solve essential problems in connectivity and optimization.
 - **Floyd** shows if there is a shortest path from one node to other.
 - **Bellman-Ford** can find path with negative weight cycles also which was not available in Dijkstra.
 
+---
+## RELATED SDG'S, TARGET AND INDICATOR TO BUISNESS CASES 
+1. **POPULATION DENSITY AND DATA**
+   - **Goal-11** : Sustainable Cities and Communities
+Sustainable traffic systems promote urban accessibility, reduce congestion, and improve public transport.
+   - **
+  
+2. **Water Supply and Management**
+   - **SDG Goal-6** : Clean Water and Sanitation
+Ensures the availability and sustainable management of water for all.
+   - **SDG Target 6.4** : By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity.
 
+- **SDG Indicator**: - **Indicator 6.4.1**: Change in water-use efficiency over time.
+- **Indicator 6.4.2**: Level of water stress: freshwater withdrawal as a proportion of available freshwater resources.
 
