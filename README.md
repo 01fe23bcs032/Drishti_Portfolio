@@ -120,6 +120,7 @@ Sustainable traffic systems promote urban accessibility, reduce congestion, and 
 
    - **SDG Indicator**:
      - **Indicator 11.2.1**: Proportion of population that has convenient access to public transport, by sex, age, and persons with disabilities.
+   - Traffic management involves navigation through shortest paths with awareness of availability of path connecting all the required places(nodes), therefore Kruskal code is essential and can be preferred.  
   
 2. **Water Supply and Management**
    - **SDG Goal-6** : Clean Water and Sanitation
