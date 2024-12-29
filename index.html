@@ -4,67 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAA COURSE PROJECT</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
     <style>
         body {
-            background-color: #282a36; /* Dark purple background */
-            color: #f8f8f2;
-            font-family: 'Roboto', sans-serif; /* Georgia font */
-            line-height: 1.6;
+            background-color: #f9f5f3; /* Soft pastel beige background */
+            color: #333; /* Darker text for readability */
+            font-family: Georgia, serif; /* Elegant font */
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #a8dadc; /* Pastel teal */
             padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .highlight {
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #1d3557; /* Deep blue */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #1d3557; /* Deep blue */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #457b9d; /* Soft blue */
+        }
+
+        .main-header {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .main-header h1 {
             font-size: 50px;
-            color: #f8f8f2; /* Yellow color for the statement */
-            font-weight: bold;
+            color: #1d3557; /* Deep blue */
         }
 
-        a {
-            color: #f8f8f2; /* Light blue color */
-            text-decoration: none; /* Removes underline by default */
-        }
-
-        /* Style for hover state */
-        a:hover {
-            color: #ff79c6; /* Pink color when hovered */
-            text-decoration: underline; /* Adds underline on hover */
-        }
-
-        h1, h2 {
-            color: #f8f8f2; /* Yellow color for headers */
-            margin-top: 20px;
-        }
-
-        /* Style for the Business Cases title */
-        .business-cases {
-            font-size: 36px; /* Larger font size */
-            font-weight: bold;
-            text-decoration: underline;
-            color: #f8f8f2; /* Yellow color */
-            margin-top: 20px;
-        }
-
-        /* Style for the paragraph below printf */
         .intro-text {
-            color: #f8f8f2;
-            font-size: 30px; /* Slightly smaller than the printf line */
-            font-weight: normal;
+            text-align: center;
+            font-size: 24px;
+            color: #457b9d; /* Soft blue */
             margin-top: 10px;
         }
 
-        p {
-            margin: 10px 0;
-            font-size: 24px; /* Set description font size */
+        .business-cases {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1d3557; /* Deep blue */
+            margin: 30px 0 20px;
         }
 
         .header-box {
-            background-color: #44475a; /* Slightly lighter purple for boxes */
+            background-color: #f4d1ae; /* Pastel peach */
             padding: 20px;
             margin: 20px 0;
-            border-radius: 10px; /* Rounded corners for the boxes */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
+        .header-box h1 {
+            color: #1d3557; /* Deep blue */
+            margin-top: 0;
+        }
+
+        .header-box p {
+            font-size: 20px;
+            color: #333; /* Darker text for readability */
+        }
+
+        a {
+            color: #e63946; /* Pastel coral */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ff7b7b; /* Softer coral on hover */
+        }
+
+        footer {
+            background-color: #a8dadc; /* Pastel teal */
+            padding: 10px;
+            text-align: center;
+            color: #1d3557; /* Deep blue */
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
     </style>
 </head>
 <body>
@@ -81,45 +129,40 @@
     </header>
 
     <div class="main-header">
-        <h1 class="highlight">printf("Hello <s>World</s> Code Creators ! ");</h1>
+        <h1>printf("Hello <s>World</s> Code Creators!");</h1>
     </div>
 
-    <!-- Intro Text Below printf -->
-    <p class="intro-text">I am Drishti Nagshetty, decoding challenges in the ever-fascinating realm of Computer Science. from KLE Technological University, Hubballi.</p>
+    <p class="intro-text">I am Drishti Nagshetty, decoding challenges in the ever-fascinating realm of Computer Science, from KLE Technological University, Hubballi.</p>
 
-    <!-- Business Cases Section -->
     <p class="business-cases">BUSINESS CASES:</p>
 
     <div class="header-box">
         <h1>Population Density and Data</h1>
         <p>
-            Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan(referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.
--To effectively manage Chitranagari's unique geographic and economic profile, strategic urban planning is essential. This would mainly include the proper management of population as it is still a growing city in terms of population.
-
-       </p>
+           -Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan(referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.
+         -To effectively manage Chitranagari's unique geographic and economic profile, strategic urban planning is essential. This would mainly include the proper management of population as it is still a growing city in terms of population.
     </div>
 
     <div class="header-box">
         <h1>Water Supply and Management</h1>
         <p>
-            -Located in Rajasthan, Chitranagari is a victim of extreme weather conditions that significantly influence water availability. The region experiences scorching summers, leading to high evaporation rates and increased water demand. Winters, though milder, see limited rainfall. 
+           -Located in Rajasthan, Chitranagari is a victim of extreme weather conditions that significantly influence water availability. The region experiences scorching summers, leading to high evaporation rates and increased water demand. Winters, though milder, see limited rainfall. 
 -Water availability is naturally constrained due to the desert landscape, with limited surface water bodies and declining groundwater levels. Compared to other states, Rajasthan's overall water resources are significantly lower, making water a precious commodity.  
 -In Chitranagari, ensuring sufficient water supply is critical to support its growing population, vibrant tourism sector, and the overall quality of life for residents. 
-        </p>
-    </div>
 
     <div class="header-box">
         <h1>Traffic Data and Management</h1>
         <p>
-            -Chitranagari, surrounded by a desert landscape, faces unique challenges in maintaining road infrastructure. The harsh climatic conditions, including occasional sandstorms, can degrade road surfaces over time which not only impact quality of roads but also contribute to traffic congestion.
+                       -Chitranagari, surrounded by a desert landscape, faces unique challenges in maintaining road infrastructure. The harsh climatic conditions, including occasional sandstorms, can degrade road surfaces over time which not only impact quality of roads but also contribute to traffic congestion.
 -To accommodate the increasing population and ensure smooth transport, a systematic traffic management approach is crucial. Proper planning of road networks, allocation of dedicated lanes, and efficient traffic flow systems will be essential to decrease congestion.
         </p>
     </div>
 
-    <p>For SDG mapping and related data, click below</p>
+    <p>For SDG mapping and related data, click below:</p>
     <a href="https://01fe23bcs032.github.io/DrishtiNagshetty_portfolio/SDG-mapping.html" target="_blank">SDG Mapping</a>
-    
+
+    <footer>
+        &copy; 2024 Drishti Nagshetty. All rights reserved.
+    </footer>
 </body>
 </html>
-
-
