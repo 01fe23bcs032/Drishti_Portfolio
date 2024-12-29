@@ -6,9 +6,9 @@
     <title>Population, Water, and Traffic Management</title>
     <style>
         body {
-            background-color: #282a36;
-            color: #f8f8f2;
-            font-family: 'Roboto', sans-serif;
+            background-color: #f0f4f8; /* Light pastel background */
+            color: #4a4a4a; /* Dark gray text for contrast */
+            font-family: 'Georgia', sans-serif;
             margin-left: 3cm;
             margin-right: 3cm;
             padding: 20px;
@@ -18,36 +18,42 @@
             text-align: center;
             font-weight: bold;
             font-size: 40px;
-            color: #f8f8f2;
+            color: #5e81ac; /* Pastel blue */
             text-decoration: underline;
             margin-bottom: 20px;
         }
 
         .section-box {
-            background-color: #44475a;
+            background-color: #eceff4; /* Light pastel grayish-blue */
             padding: 20px;
             margin: 20px 0;
             border-radius: 8px;
         }
 
         .section-title {
-            color: #8be9fd;
+            color: #88c0d0; /* Soft pastel teal */
             font-size: 35px;
             margin-bottom: 10px;
         }
 
         ul {
             font-size: 24px;
-            color: #f8f8f2;
+            color: #4a4a4a; /* Dark gray text */
             margin-left: 30px;
         }
 
         li {
             margin-bottom: 10px;
+            transition: transform 0.2s, color 0.2s;
+        }
+
+        li:hover {
+            transform: scale(1.05);
+            color: #81a1c1; /* Hover effect: pastel blue */
         }
 
         p {
-            color: #f8f8f2;
+            color: #4a4a4a; /* Dark gray text */
             font-size: 24px;
             margin-bottom: 10px;
         }
@@ -55,12 +61,24 @@
         .highlight {
             font-weight: bold;
             text-decoration: underline;
-            color: #8be9fd;
+            color: #88c0d0; /* Pastel teal */
         }
 
         .divider {
-            border-top: 2px solid #bd93f9;
+            border-top: 2px solid #a3be8c; /* Pastel green divider */
             margin: 20px 0;
+        }
+
+        a {
+            color: #5e81ac; /* Pastel blue */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: #81a1c1; /* Hover effect: pastel blue */
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -71,10 +89,10 @@
     <div class="section-box">
         <p class="section-title">1. Population Density and Data</p>
         <ul>
-             <li><b class="underline">1. Keeping track of yearly increase of population:</b></li>
+             <li><b class="highlight">1. Keeping track of yearly increase of population:</b></li>
             <p>- To keep track of the total population increase in an area, <span class="highlight">arrays</span> would be used as it is homogeneous data.</p>
             <li><span class="highlight">Segment Tree</span>: Useful for range queries, such as finding the population density over a specific geographic region.</li>
-           <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Segment%20Tree.cpp" target="_blank">Segment Tree code</a>
+            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Segment%20Tree.cpp" target="_blank">Segment Tree code</a>
             <div class="divider"></div>
           <li><span class="highlight">Fenwick Tree</span>: Efficient for cumulative frequency tables and querying/updating population data.</li>
             <p class="design-technique">Design technique: Dynamic programming, Pre-computing, Bit manipulation</p>
@@ -87,7 +105,7 @@
             <li><span class="highlight">Hashing</span>: Quick lookups for population data of regions.</li>
             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Hashing.cpp" target="_blank">Hashing code</a>
             <li><span class="highlight">Union-Find</span>: To identify connected components in geographical data.
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Union%20Find.cpp" target="_blank">Trie code</a>
+            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Union%20Find.cpp" target="_blank">Union-Find code</a>
             </li>
             <li><span class="highlight">Binary Search Tree</span>: For ordered data like storing regions by population.
             </li>
@@ -142,4 +160,3 @@
     </div>
 </body>
 </html>
-
