@@ -71,12 +71,18 @@
     <div class="section-box">
         <p class="section-title">1. Population Density and Data</p>
         <ul>
+             <li><b class="underline">1. Keeping track of yearly increase of population:</b></li>
+            <p>- To keep track of the total population increase in an area, <span class="highlight">arrays</span> would be used as it is homogeneous data.</p>
             <li><span class="highlight">Segment Tree</span>: Useful for range queries, such as finding the population density over a specific geographic region.</li>
            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Segment%20Tree.cpp" target="_blank">Segment Tree code</a>
             <div class="divider"></div>
           <li><span class="highlight">Fenwick Tree</span>: Efficient for cumulative frequency tables and querying/updating population data.</li>
-           <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Fenwick%20Tree.cpp" target="_blank">Fenwick Tree code</a>
+            <p class="design-technique">Design technique: Dynamic programming, Pre-computing, Bit manipulation</p>
+            <p class="efficiency">Efficiency: O(log n)</p>
+            <br>
+            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Fenwick%20Tree.cpp" target="_blank">Fenwick Tree code</a>
             <li><span class="highlight">Trie</span>: For hierarchical data retrieval like country -> state -> city.</li>
+            <p class="efficiency">Efficiency: O(n⋅m) where: n = Length of the text, m = Length of the pattern.</p>
             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Trie.cpp" target="_blank">Trie code</a>
             <li><span class="highlight">Hashing</span>: Quick lookups for population data of regions.</li>
             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Hashing.cpp" target="_blank">Hashing code</a>
@@ -94,9 +100,14 @@
         <p class="section-title">2. Water Supply and Management</p>
         <ul>
             <li><span class="highlight">Dijkstra's Algorithm</span>: Optimizes water distribution routes across a network of supply points.</li>
-           <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp" target="_blank">Dijkstra code</a>
+           <p class="design-technique">Design technique: Greedy technique, Edge Relaxation, Single source shortest path</p>
+            <p class="efficiency">Efficiency: Θ(|V|^2) for graphs represented by their weight matrix and the priority queue implemented by an unordered array and O(|E| log|V|) for graphs represented by their adjacency lists and the priority queue implemented as a min-heap.</p>
+            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp" target="_blank">Dijkstra code</a>
             <li><span class="highlight">Prim's Algorithm</span>: Designs an optimal network (minimum spanning tree) of water pipelines.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Prims.cpp" target="_blank">Prim"s code</a>
+            <p class="design-technique">Design technique: Edge Relaxation, Greedy technique, Minimum Spanning tree algorithm</p>
+            <p class="efficiency">Efficiency:O(m) : Θ(|V|^2) for graphs represented by their weight matrix and the priority queue implemented by an unordered array and O (|E| log|V|) for graphs represented by their adjacency lists and the priority queue implemented as a min-heap.</p>
+             <br>
+            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Prims.cpp" target="_blank">Prim"s code</a>
             <li><span class="highlight">Union-Find</span>: Manages regions or zones sharing a water supply.</li>
              <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Union%20Find.cpp" target="_blank">Union-Find code</a>
             <li><span class="highlight">Segment Tree</span>: Monitors water consumption over time or regions.</li>
@@ -114,13 +125,17 @@
             <li><span class="highlight">AVL Tree</span>: Maintains balanced traffic data for quick updates and queries.</li>
              <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/AVL%20Trees.cpp" target="_blank">AVL Tree code</a>
             <li><span class="highlight">Dijkstra's Algorithm</span>: Essential for shortest-path routing in traffic networks.</li>
+            <p class="design-technique">Design technique: Greedy technique, Edge Relaxation, Single source shortest path</p>
+            <p class="efficiency">Efficiency: Θ(|V|^2) for graphs represented by their weight matrix and the priority queue implemented by an unordered array and O(|E| log|V|) for graphs represented by their adjacency lists and the priority queue implemented as a min-heap.</p>
              <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp" target="_blank">Dijkstra code</a>
             <li><span class="highlight">BFS</span>: Real-time exploration of traffic networks for shortest routes in unweighted graphs.</li>
              <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Breadth%20First%20Search.cpp" target="_blank">BFS code</a>
             <li><span class="highlight">Trie</span>: Efficient autocomplete for street names or locations.</li>
              <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Trie.cpp" target="_blank">Trie code</a>
             <li><span class="highlight">Kruskal's Algorithm</span>: Minimizes traffic congestion in distributed networks.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Kruskal.cpp" target="_blank">Kruskal code</a>
+             <p class="design-technique">Design technique: Greedy technique, Minimum Spanning tree algorithm</p>
+            <p class="efficiency">Efficiency: |E|log|E|</p>
+            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Kruskal.cpp" target="_blank">Kruskal code</a>
             <li><span class="highlight">Segment Tree</span>: Monitors traffic density over regions and time periods.</li>
         </ul>
         <div class="divider"></div>
