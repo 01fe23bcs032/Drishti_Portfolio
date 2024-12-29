@@ -78,4 +78,34 @@ TrieNode *node=root;
             return node->isLeaf;
         }
 };
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        string keys[n];
+
+        for (int i = 0; i < n; i++) {
+            cin >> keys[i];
+        }
+        
+        Solution obj;
+        struct TrieNode *root = getNode();
+        // Construct trie
+        for (int i = 0; i < n; i++) obj.insert(root, keys[i]);
+
+        string abc;
+
+        cin >> abc;
+        // Search for different keys
+
+        if (obj.search(root, abc))
+            cout << "1\n";
+        else
+            cout << "0\n";
+    }
+    return 0;
+}
+
 
