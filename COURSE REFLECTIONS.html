@@ -6,7 +6,7 @@
     <title>Chitranagari: Smart City Design</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Georgia', sans-serif;
             background-color: #f3f4f6;
             color: #333;
             margin: 0;
@@ -57,7 +57,7 @@
         }
 
         li:before {
-            content: "•";
+            content: "\2022";
             position: absolute;
             left: 0;
             color: #4CAF50;
@@ -119,6 +119,7 @@
 
         <section>
             <h2>Course Learning Reflections</h2>
+
             <h3>1. Iteration, Recursion, and Backtracking</h3>
             <ul>
                 <li><span class="highlight">Iteration:</span> Repeatedly performing a task, e.g., spiral arrangements in flowers.</li>
@@ -138,8 +139,46 @@
                 <li><span class="highlight">Pruning:</span> Ideal for N-Queens problem.</li>
                 <li><span class="highlight">Bit Manipulation:</span> Used in Fenwick Trees.</li>
             </ul>
-        </section>
-    </div>
-</body>
-</html>
 
+            <h3>4. Tree Data Structures</h3>
+            <p>Tree structures are designed for hierarchical data organization, where elements (nodes) are connected by edges. A tree starts from a root node and branches out into child nodes, with no cycles.</p>
+            <ul>
+                <li><span class="highlight">Balanced Trees:</span> (AVL, Red-Black, 2-3 trees) Useful for maintaining balance through rotations, enabling faster search, insertion, and deletion operations with a time complexity of \( O(\log n) \).</li>
+                <li><span class="highlight">Trie:</span> Ideal for managing character data like dictionaries or prefixes.</li>
+                <li><span class="highlight">Heap:</span> Must satisfy the tree shape and parental dominance properties.</li>
+            </ul>
+
+            <h3>5. Array Query Algorithms</h3>
+            <p>Array query algorithms are effective for small and static datasets, such as finding the sum, minimum, maximum, or other properties over a range of indices. These algorithms leverage <span class="highlight">pre-computation</span> by storing previously calculated results to avoid redundant calculations.</p>
+            <ul>
+                <li>Structures like Segment Trees, Sparse Tables, and Fenwick Trees use this principle, making them efficient for array queries.</li>
+            </ul>
+
+            <h3>6. Difference Between Trees and Graphs</h3>
+            <ul>
+                <li><span class="highlight">Trees:</span> Hierarchical data structures with n nodes and n-1 edges, where each node has a single root-to-node path, making them acyclic. Traversals include Inorder, Preorder, and Postorder. DFS and BFS are also used in tree traversals.</li>
+                <li><span class="highlight">Graphs:</span> Generalized structures where nodes (vertices) connect through edges, which can form cycles and can be directed or undirected. Applications include navigation systems and other network purposes.</li>
+            </ul>
+
+            <h3>7. Sorting and Searching Algorithms</h3>
+            <p>Sorting algorithms organize data for efficient access and manipulation, including:</p>
+            <ul>
+                <li><span class="highlight">Quick Sort</span></li>
+                <li><span class="highlight">Merge Sort</span></li>
+                <li><span class="highlight">Bubble Sort</span></li>
+                <li><span class="highlight">Insertion Sort</span></li>
+            </ul>
+            <p>Searching algorithms locate data within structures, including:</p>
+            <ul>
+                <li><span class="highlight">Rabin-Karp</span></li>
+                <li><span class="highlight">Knuth-Morris-Pratt</span></li>
+                <li><span class="highlight">Boyer-Moore</span></li>
+            </ul>
+
+            <h3>8. Graph Algorithms</h3>
+            <p>Graph algorithms solve essential problems in connectivity and optimization:</p>
+            <ul>
+                <li><span class="highlight">Kruskal:</span> Finds the shortest path by visiting all nodes.</li>
+                <li><span class="highlight">Dijkstra:</span> Uses a cost matrix to find the shortest path but need not visit all nodes.</li>
+                <li><span class="highlight">Warshall:</span> Shows if there is a path from one node to another.</li>
+                <li><span class="highlight">Floyd
