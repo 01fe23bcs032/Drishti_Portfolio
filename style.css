@@ -34,7 +34,7 @@ nav ul {
     display: flex;
     gap: 35px;
     padding: 12px 22px;
-    background: linear-gradient(90deg, #0d1b2a, #4a6e86);
+    background: linear-gradient(90deg, #310e68, #5f0f40);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
