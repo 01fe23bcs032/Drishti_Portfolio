@@ -3,160 +3,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Population, Water, and Traffic Management</title>
+    <title>CHITRANAGARI: Smart City Business Cases</title>
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            background-color: #f0f4f8; /* Light pastel background */
-            color: #4a4a4a; /* Dark gray text for contrast */
             font-family: 'Georgia', sans-serif;
-            margin-left: 3cm;
-            margin-right: 3cm;
-            padding: 20px;
+            line-height: 2.1;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
         }
-
-        h1 {
+        header {
+            background: linear-gradient(45deg, #0054b4, #40e0d0);
+            color: #fff;
+            padding: 1.5rem 0;
             text-align: center;
-            font-weight: bold;
-            font-size: 40px;
-            color: #5e81ac; /* Pastel blue */
-            text-decoration: underline;
-            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-
-        .section-box {
-            background-color: #eceff4; /* Light pastel grayish-blue */
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
+        header h1 {
+            margin: 0;
+            font-size: 2.9rem;
         }
-
-        .section-title {
-            color: #88c0d0; /* Soft pastel teal */
-            font-size: 35px;
-            margin-bottom: 10px;
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            max-width: 1200px;
         }
-
-        ul {
-            font-size: 24px;
-            color: #4a4a4a; /* Dark gray text */
-            margin-left: 30px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.7rem 0;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
-
-        li {
-            margin-bottom: 10px;
-            transition: transform 0.2s, color 0.2s;
+        thead {
+            background: linear-gradient(45deg, #0054b4, #40e0d0);
+            color: #fff;
         }
-
-        li:hover {
-            transform: scale(1.05);
-            color: #81a1c1; /* Hover effect: pastel blue */
+        th, td {
+            padding: 1.5rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
         }
-
-        p {
-            color: #4a4a4a; /* Dark gray text */
-            font-size: 24px;
-            margin-bottom: 10px;
+        th {
+            font-weight: 700;
         }
-
-        .highlight {
-            font-weight: bold;
-            text-decoration: underline;
-            color: #88c0d0; /* Pastel teal */
+        tr:last-child td {
+            border-bottom: none;
         }
-
-        .divider {
-            border-top: 2px solid #a3be8c; /* Pastel green divider */
-            margin: 20px 0;
+        tbody tr:hover {
+            background: #b5b5b5;
         }
-
         a {
-            color: #5e81ac; /* Pastel blue */
             text-decoration: none;
+            color: #0066cc;
             font-weight: bold;
-            transition: color 0.2s ease-in-out;
         }
-
         a:hover {
-            color: #81a1c1; /* Hover effect: pastel blue */
             text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #222;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            table {
+                font-size: 1.0rem;
+            }
+            table td, table th {
+                display: block;
+                text-align: left;
+                padding: 0.5rem;
+            }
+            table thead {
+                display: none;
+            }
+            table tr {
+                display: block;
+                margin-bottom: 1rem;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 1rem;
+            }
+            table tr td:first-child {
+                font-weight: bold;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>IMPLEMENTATION</h1>
+    <header>
+        <h1><span>🏙️👨‍👩‍👧‍👦</span> Smart City Plan: Business Case Studies Identified</h1>
+    </header>
 
-    <!-- Population Density and Data -->
-    <div class="section-box">
-        <p class="section-title">1. Population Density and Data</p>
-        <ul>
-             <li><b class="highlight">1. Keeping track of yearly increase of population:</b></li>
-            <p>- To keep track of the total population increase in an area, <span class="highlight">arrays</span> would be used as it is homogeneous data.</p>
-            <li><span class="highlight">Segment Tree</span>: Useful for range queries, such as finding the population density over a specific geographic region.</li>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Segment%20Tree.cpp" target="_blank">Segment Tree code</a>
-            <div class="divider"></div>
-          <li><span class="highlight">Fenwick Tree</span>: Efficient for cumulative frequency tables and querying/updating population data.</li>
-            <p class="design-technique">Design technique: Dynamic programming, Pre-computing, Bit manipulation</p>
-            <p class="efficiency">Efficiency: O(log n)</p>
-            <br>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Fenwick%20Tree.cpp" target="_blank">Fenwick Tree code</a>
-            <li><span class="highlight">Trie</span>: For hierarchical data retrieval like country -> state -> city.</li>
-            <p class="efficiency">Efficiency: O(n⋅m) where: n = Length of the text, m = Length of the pattern.</p>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Trie.cpp" target="_blank">Trie code</a>
-            <li><span class="highlight">Hashing</span>: Quick lookups for population data of regions.</li>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Hashing.cpp" target="_blank">Hashing code</a>
-            <li><span class="highlight">Union-Find</span>: To identify connected components in geographical data.
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Union%20Find.cpp" target="_blank">Union-Find code</a>
-            </li>
-            <li><span class="highlight">Binary Search Tree</span>: For ordered data like storing regions by population.
-            </li>
-        </ul>
-        <div class="divider"></div>
+    <div class="container">
+        <h2><i class="fas fa-users"></i>Population Density and Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sub Cases</th>
+                    <th>Algorithm used</th>
+                    <th>How it can be useful?</th>
+                    <th>Description</th>
+                    <th>Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i></i>Storing the population density data indexed by area codes.</td>
+                    <td>Arrays</td>
+                    <td>If we want to find the population density for particular area with particular code them then this would be helpful.</td>
+                    <td>Arrays would be efficient to store the population densities for different area.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Arrays.cpp">View Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Dynamic Updation of Population Density.</td>
+                    <td>Fenwick Trees</td>
+                    <td>This can used when we want to update population data every time.</td>
+                    <td>Fenwick Trees are used to dynamically update densities and compute cumulative sums.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Fenwick%20Tree.cpp">Fenwick Tree code</a></td>
+                </tr>
+                <tr>
+                    <td><i"></i>Identifying a densely populated area within a range.</td>
+                    <td>Binary Search Tree(BST)</td>
+                    <td>It is used to quickly find area within a population density range.</td>
+                    <td>By inserting densities into a Binary Search Tree(BST), we can perform a range search for densities.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Binary%20Search%20Tree(BST).cpp">BST Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Predicting the population growth</td>
+                    <td>AVL trees</td>
+                    <td>It is used to track changes in population density over time.</td>
+                    <td>AVL trees will ensure a balanced whenever insertion or deletion has to be made.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/AVL%20Trees.cpp">AVL Tree Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Retrieving and efficient lookup of densities</td>
+                    <td>Hashing</td>
+                    <td>It is used to directly retrieve densities by area codes.</td>
+                    <td>Hash table maps area codes to population densities.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Hashing.cpp">Hashing Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Ranking the most Populated Areas</td>
+                    <td>Heap</td>
+                    <td>It can be used to rank the areas based on their population densities.</td>
+                    <td>Max-heap can be effective to sort population densities in descending order and find the areas with highest density.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Heap.cpp">Heap Code</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2><i class="fas fa-water"></i> Water Supply and Management</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sub Cases</th>
+                    <th>Algorithm</th>
+                    <th>How it can be useful?</th>
+                    <th>Description</th>
+                    <th>Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i></i>Water Distribution</td>
+                    <td>Dijkstra's algorithm</td>
+                    <td>To find the shortest and most efficient pipelines to distribute water to every destination.</td>
+                    <td>Dijkstra's algorithm can be used by drawing a graph for the networks of water distribution where destination are nodes and routes can act as links. Efficiency: O(V + E log V).</td>
+                    <td><a https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp">Dijkstra Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Monitoring water levels in water resources</td>
+                    <td>Segment trees</td>
+                    <td>It can be used to find the consumption of water and update water levels in water resources.</td>
+                    <td>Segment trees are used to track water levels. Efficiency for Query: O(log n).</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Segment%20Tree.cpp">Segment Tree Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Water Allocation Based on Population</td>
+                    <td>Trie</td>
+                    <td>It can be used to efficiently allocate water resources based on population density.</td>
+                    <td>Trie is used to map population density ranges and match the areas with more density for water allocation.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Trie.cpp">Trie Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Designing the efficient pipelines</td>
+                    <td>Prim's algorithm</td>
+                    <td>It can be used to design pipelines to connect all areas as networks with minimum cost.</td>
+                    <td>Prim's algorithm can be used to construct a minimum spanning tree for the network of pipeline.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Prims.cpp">Prim's Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Water routing in emergencies.</td>
+                    <td>Bellman Ford Algorithm</td>
+                    <td>It can be used to route water efficiently during emergencies while considering water loss or leakage which can be represented as negative weights.</td>
+                    <td>Bellman Ford can be used to find shortest path considering even the negatives weights.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Bellman%20Ford.cpp">Bellman Ford Code</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+<h2><i class="fas fa-car"></i> <i class="fas fa-traffic-light"></i>
+Traffic Data and Management</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sub Cases</th>
+                    <th>Algorithm</th>
+                    <th>How it can be useful?</th>
+                    <th>Description</th>
+                    <th>Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i></i>Route Optimization</td>
+                    <td>Dijkstra's algorithm</td>
+                    <td>It can be used for finding the shortest route from a source to destination, accounting for the least time or traffic congestion.</td>
+                    <td>Dijkstra’s algorithm could be used to calculate the optimal route for a vehicle based on real-time traffic conditions.</td>
+                    <td><a https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp">Dijkstra Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>2.Traffic Signal Management</td>
+                    <td>Queue</td>
+                    <td>Simulation of the vehicles waiting for a green light at an intersection, and manage all the signal changes.</td>
+                    <td>Queueing vehicles while waiting for the signals at an intersection.</td>
+                </tr>
+                <tr>
+                    <td><i></i>Traffic monitoring </td>
+                    <td>Depth First Search(DFS)</td>
+                    <td>It can be used to explore the road network and find alternative routes by traversing through various routes.</td>
+                    <td>DFS could be used to explore traffic flow from one area to the other.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/DFS.cpp">DFS Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Incident Management and Alerts</td>
+                    <td>Kruskal's algorithm</td>
+                    <td>It is used to find the minimum spanning tree of connected road networks to optimize incident management, ensuring roads are cleared to reconnect the network.</td>
+                    <td>Kruskal’s algorithm could be used in traffic management to ensure connectivity networks, and reduce congestion, especially in emergencies.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Kruskal.cpp">Kruskal's Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Traffic Data Sorting.</td>
+                    <td>Quick Sort</td>
+                    <td>It can be used to sort traffic data by traffic volume or delay time efficiently.</td>
+                    <td>Quick sort can be used to sort roads based on highest traffic congestion.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/QUICK%20SORT.cpp">Quick Sort Code</a></td>
+                </tr>
+                <tr>
+                    <td><i></i>Optimization of water resource connection</td>
+                    <td>Floyd-Warshall algorithm</td>
+                    <td>To determine shortest paths between all pairs of water resources for optimized water flow.</td>
+                    <td>Floyd-Warshall algorithm can be used for graph traversal to find paths from water resources.</td>
+                    <td><a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Floyd%20Warshal.cpp">Floyd-Warshal Code</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+
     </div>
 
-    <!-- Water Supply and Management -->
-    <div class="section-box">
-        <p class="section-title">2. Water Supply and Management</p>
-        <ul>
-            <li><span class="highlight">Dijkstra's Algorithm</span>: Optimizes water distribution routes across a network of supply points.</li>
-           <p class="design-technique">Design technique: Greedy technique, Edge Relaxation, Single source shortest path</p>
-            <p class="efficiency">Efficiency: Θ(|V|^2) for graphs represented by their weight matrix and the priority queue implemented by an unordered array and O(|E| log|V|) for graphs represented by their adjacency lists and the priority queue implemented as a min-heap.</p>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp" target="_blank">Dijkstra code</a>
-            <li><span class="highlight">Prim's Algorithm</span>: Designs an optimal network (minimum spanning tree) of water pipelines.</li>
-            <p class="design-technique">Design technique: Edge Relaxation, Greedy technique, Minimum Spanning tree algorithm</p>
-            <p class="efficiency">Efficiency:O(m) : Θ(|V|^2) for graphs represented by their weight matrix and the priority queue implemented by an unordered array and O (|E| log|V|) for graphs represented by their adjacency lists and the priority queue implemented as a min-heap.</p>
-             <br>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Prims.cpp" target="_blank">Prim"s code</a>
-            <li><span class="highlight">Union-Find</span>: Manages regions or zones sharing a water supply.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Union%20Find.cpp" target="_blank">Union-Find code</a>
-            <li><span class="highlight">Segment Tree</span>: Monitors water consumption over time or regions.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Segment%20Tree.cpp" target="_blank">Segment code</a>
-            <li><span class="highlight">Bellman-Ford</span>: Maximizes flow in water distribution networks.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Bellman%20Ford.cpp" target="_blank">Bellman Ford code</a>
-        </ul>
-        <div class="divider"></div>
-    </div>
-
-    <!-- Traffic Data and Management -->
-    <div class="section-box">
-        <p class="section-title">3. Traffic Data and Management</p>
-        <ul>
-            <li><span class="highlight">AVL Tree</span>: Maintains balanced traffic data for quick updates and queries.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/AVL%20Trees.cpp" target="_blank">AVL Tree code</a>
-            <li><span class="highlight">Dijkstra's Algorithm</span>: Essential for shortest-path routing in traffic networks.</li>
-            <p class="design-technique">Design technique: Greedy technique, Edge Relaxation, Single source shortest path</p>
-            <p class="efficiency">Efficiency: Θ(|V|^2) for graphs represented by their weight matrix and the priority queue implemented by an unordered array and O(|E| log|V|) for graphs represented by their adjacency lists and the priority queue implemented as a min-heap.</p>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Dijkstra.cpp" target="_blank">Dijkstra code</a>
-            <li><span class="highlight">BFS</span>: Real-time exploration of traffic networks for shortest routes in unweighted graphs.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Breadth%20First%20Search.cpp" target="_blank">BFS code</a>
-            <li><span class="highlight">Trie</span>: Efficient autocomplete for street names or locations.</li>
-             <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Trie.cpp" target="_blank">Trie code</a>
-            <li><span class="highlight">Kruskal's Algorithm</span>: Minimizes traffic congestion in distributed networks.</li>
-             <p class="design-technique">Design technique: Greedy technique, Minimum Spanning tree algorithm</p>
-            <p class="efficiency">Efficiency: |E|log|E|</p>
-            <a href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/Codes/Kruskal.cpp" target="_blank">Kruskal code</a>
-            <li><span class="highlight">Segment Tree</span>: Monitors traffic density over regions and time periods.</li>
-        </ul>
-        <div class="divider"></div>
-    </div>
+    <footer>
+        <p>Smart City Plan &copy; 2024,CREATED by Drishti R N</p>
+    </footer>
 </body>
 </html>
+
