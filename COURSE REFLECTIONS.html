@@ -6,202 +6,137 @@
     <title>Chitranagari: Smart City Design</title>
     <style>
         body {
+            background: linear-gradient(135deg, #5f0f40, #3a3d5f, #310e68);
+            color: #ffffff;
             font-family: 'Georgia', sans-serif;
-            background-color: #bbc1cc;
-            color: #333;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
         }
 
-        h1, h2, h3 {
+        h1 {
+            color: #e056fd;
+            font-size: 2.9em;
             text-align: center;
-            color: #c177b2;
+            margin-top: 30px;
+            transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
         }
 
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        section {
-            margin-bottom: 40px;
-            padding: 20px;
-            background: #ffffff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        h1:hover {
+            color: #7ed6df; /* Change color to gold */
+            text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.7); /* Add a glowing effect */
+            transform: scale(1.1); /* Slightly enlarge the text */
         }
 
         h2 {
-            font-size: 26px;
+            color: #ffd700;
+            font-size: 2.2em;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #00ced1;
+            font-size: 1.8em;
             margin-bottom: 10px;
-            text-transform: uppercase;
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            line-height: 1.6;
         }
 
         ul {
-            list-style: none;
             padding-left: 20px;
         }
 
         li {
-            position: relative;
-            padding-left: 20px;
             margin-bottom: 10px;
+            transition: transform 0.2s, color 0.2s;
         }
 
-        li:before {
-            content: "\2022";
-            position: absolute;
-            left: 0;
-            color: #C09BBC;
+        li:hover {
+            transform: scale(1.05);
+            color: #ff4500;
         }
 
-        code {
-            background-color: #e8f5e9;
-            color: #C09BBC;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-family: 'Courier New', Courier, monospace;
+        .section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background: #E6E6FA; /* Lavender color */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .highlight {
-            color: #e91e63;
-            font-weight: bold;
+        .section h2, .section h3, .section p {
+            color: #800080; /* Purple color for text */
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .section:hover {
+            background: #D8BFD8; /* Slightly darker lavender on hover */
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
         }
 
         a {
-            color: #1e88e5;
+            color: #ffd700;
             text-decoration: none;
-            transition: color 0.3s;
+            font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         a:hover {
-            color: #1565c0;
+            text-decoration: underline;
+            color: #ff6347;
         }
 
-        .icon {
-            font-size: 34px;
-            margin-right: 5px;
+        hr {
+            border: none;
+            height: 2px;
+            background: #ff7f50;
+            margin: 20px 0;
         }
 
-        .title-icon {
-            display: flex;
-            align-items: center;
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            background: #1e1e2f;
+            color: #7f7f9f;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>CHITRANAGARI: Smart City Design</h1>
+    <h1>CHITRANAGARI: SMART CITY DESIGN</h1>
+    
+    <hr>
 
-        <section>
-            <h2 class="title-icon"><span class="icon">👨‍👩‍👧‍👦</span> Population Density and Data</h2>
-            <p>Chitranagari, inspired by Jaipur, showcases a vibrant mix of residents and visitors, creating a dynamic geographic and economic profile.</p>
-            <p>Strategic urban planning is essential to manage its growing population effectively.</p>
-        </section>
+    <div class="section">
+        <h2>Related SDG's, Targets, and Indicators</h2>
 
-        <section>
-            <h2 class="title-icon"><span class="icon">🌦️</span> Water Supply and Management</h2>
-            <p>Located in Rajasthan, Chitranagari faces challenges due to extreme weather affecting water availability. Proper water resource management is critical to sustain the growing population and vibrant tourism sector.</p>
-        </section>
+       <h3>Population Density and Data</h3>
+        <ul>
+           <li><strong>SDG Goal-11:</strong> Sustainable Cities and Communities</li>
+            <li><strong>Target 11.1:</strong> By 2030, ensure access for all to adequate, safe, and affordable housing and basic services and upgrade slums.</li>
+            <li><strong>Indicator 11.1.1:</strong> Proportion of urban population living in slums, informal settlements, or inadequate housing.</li>
+        </ul>
 
-        <section>
-            <h2 class="title-icon"><span class="icon">🚦</span> Traffic Data and Management</h2>
-            <p>Chitranagari's desert environment impacts road quality. Systematic traffic management is crucial to ensure smooth transportation and reduce congestion.</p>
-        </section>
+        <h3>Water Supply and Management</h3>
+        <ul>
+           <li><strong>SDG Goal-11:</strong> Sustainable Cities and Communities</li>
+            <li><strong>Target 11.5:</strong> By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.</li>
+            <li><strong>Indicator 11.5.1:</strong>Number of deaths, missing persons, and directly affected persons attributed to disasters per 100,000 population.</li>
+        </ul>
 
-        <section>
-            <h2>Course Learning Reflections</h2>
+        <h3>Traffic Management and Data</h3>
+        <ul>
+            <li><strong>SDG Goal-11:</strong> Sustainable Cities and Communities</li>
+            <li><strong>Target 11.2:</strong> By 2030, provide access to safe, affordable, and sustainable transport systems for all.</li>
+            <li><strong>Indicator 11.2.1:</strong> Proportion of population with convenient access to public transport.</li>
+        </ul>
+    </div>
 
-            <h3>1. Iteration, Recursion, and Backtracking</h3>
-            <ul>
-                <li><span class="highlight">Iteration:</span> Repeatedly performing a task, e.g., spiral arrangements in flowers.Iteration is a fundamental programming technique where a sequence of instructions is executed repeatedly until a specified condition is met. This approach is commonly implemented using loops, such as for, while, or do-while constructs in programming languages. </li>
-                    Iteration is ideal for tasks involving:
- <li>Traversing arrays or lists. </li>
- <li>Repeating a fixed number of operations. </li>
- <li>Performing incremental calculations like summation or finding the maximum/minimum.</li>
-                <li><span class="highlight">Backtracking:</span>  Exploring possibilities and reverting when necessary,Backtracking is an algorithmic paradigm that builds solutions incrementally, abandoning paths that fail to satisfy the constraints of the problem. It is particularly useful in scenarios where we explore all potential solutions but prune paths that are unlikely to lead to success.We used the backtracking in the N-Queen's Problem. Areal life sitaution would include e.g. as Sudoko.</li>
-                <li><span class="highlight">Recursion:</span> Breaking a problem into smaller sub-problems. It is a process where a function calls itself to solve smaller instances of the same problem. This technique is particularly suited for problems with a divide-and-conquer nature, where the solution to a larger problem depends on solutions to its subproblems. e.g., Cell divion.</li>
-            </ul>
-
-            <h3>2. Space and Time Efficiency</h3>
-            <ul>
-               <li><span class="highlight">Space Efficiency:</span> Space efficiency measures the amount of memory(RAM) an algorithm requires relative to its input size(n).The key factors affecting Space Efficiency are input size and In-place and Non in-place algorithms.</li>
-<li>Ways to Measure Space Efficiency:
-Space Complexity: The total memory used by an algorithm as a function of the input size.</li>
-
-                <li><span class="highlight">Time Efficiency:</span>Time efficiency measures the amount of time an algorithm takes to complete as a function of the size of its input (n).The key factors affecting Time Efficiency are input size and Number of Operations. </li>
-                <li>Ways to measure Time Efficiency:Big-O Notation,Big-Theta,Big-Omega</li>
-              <li><strong>Orders of Growth</strong>: It determines how the time increases as we increase the inputs.</li>
-                <li>It can be Constant, Logarithmic, Linear, Quadratic, Cubic.</li>
-            </ul>
-
-            <h3>3. Design Principles</h3>
-            <p>Using the right principle simplifies problems:</p>
-            <ul>
-                <li><span class="highlight">Pruning:</span> Pruning refers to the process of cutting off certain branches in a search space or decision tree to avoid unnecessary computations. <li>This is commonly applied in optimization problems or tree traversal algorithms, where not all possibilities need to be explored.</li>
- <li>Ideal for N-Queens problem.</li>
-
-                 <li><span class="highlight">Bit Manipulation:</span>Bit manipulation involves using bitwise operators to perform low-level operations directly on the binary representations of integers.</li>
- <li>This technique is efficient and often used to solve problems related to optimization.</li>
-              <li> Used in Fenwick Trees.</li>
-
-            </ul>
-
-            <h3>4. Tree Data Structures</h3>
-            <p>Tree structures are designed for hierarchical data organization, where elements (nodes) are connected by edges. A tree starts from a root node and branches out into child nodes, with no cycles.</p>
-            <ul>
-                                <li><span class="highlight">Balanced Trees:</span> (AVL, Red-Black, 2-3 trees) Useful for maintaining balance through rotations, enabling faster search, insertion, and deletion operations with a time complexity of \( O(\log n) \).</li>
-<li><strong>Binary Search Tree (BST):</strong> Efficient for searching sorted data but may become unbalanced.</li>
-        <li><strong>AVL Tree:</strong> A self-balancing BST for optimal performance.</li>
-        <li><strong>2-3 Tree:</strong> Handles dynamic data effectively.</li>
-        <li><strong>Red-Black Tree:</strong> A balanced tree with fewer rebalancing operations.</li>                
-                <li><span class="highlight">Trie:</span> Ideal for managing character data like dictionaries or prefixes.</li>
-                <li><span class="highlight">Heap:</span> Must satisfy the tree shape and parental dominance properties.</li>
-            </ul>
-
-            <h3>5. Array Query Algorithms</h3>
-            <p>Array query algorithms are effective for small and static datasets, such as finding the sum, minimum, maximum, or other properties over a range of indices. These algorithms leverage <span class="highlight">pre-computation</span> by storing previously calculated results to avoid redundant calculations.</p>
-            <ul>
-                <li>Structures like Segment Trees, Sparse Tables, and Fenwick Trees use this principle, making them efficient for array queries.</li>
-            </ul>
-
-            <h3>6. Difference Between Trees and Graphs</h3>
-            <ul>
-                <li><span class="highlight">Trees:</span> Hierarchical data structures with n nodes and n-1 edges, where each node has a single root-to-node path, making them acyclic. Traversals include Inorder, Preorder, and Postorder.</li>
-                <li><span class="highlight">Graphs:</span> Generalized structures where nodes (vertices) connect through edges, which can form cycles and can be directed or undirected. Applications include navigation systems and other network purposes.. DFS and BFS are also used in  traversals</li>
-            </ul>
-
-            <h3>7. Sorting and Searching Algorithms</h3>
-            <p>Sorting algorithms organize data for efficient access and manipulation, including:</p>
-            <ul>
-                <li><span class="highlight">Quick Sort</span>Quick Sort is a divide-and-conquer algorithm that partitions the array into two parts based on a pivot, placing smaller elements to the left and larger elements to the right.It is suitable for large datasets</li>
-                <li><span class="highlight">Merge Sort</span>Merge Sort is a divide-and-conquer algorithm that splits the array into halves, sorts each half recursively, and then merges the sorted halves into a single sorted array.It is suitable for large datasets</li>
-                <li><span class="highlight">Bubble Sort</span> Bubble Sort repeatedly compares adjacent elements in the list and swaps. It works well for small datasets.</li>
-                <li><span class="highlight">Insertion Sort</span>Insertion Sort is a simple sorting algorithm that sorts the final sorted array one element at a time. It picks each element from the unsorted portion and insrts to form a sorted array. </li>
-
-            </ul>
-            <p>Searching algorithms locate data within structures, including:</p>
-            <ul>
-                <li><span class="highlight">Rabin-Karp</span>The Rabin-Karp algorithm is a pattern-searching algorithm that uses hashing to efficiently find occurrences of a pattern string within a text string.</li>
-                <li><span class="highlight">Knuth-Morris-Pratt</span>The principle behind the algorithm that is to generate the prefix table P is that:
-Find the length of the longest proper prefix in the sub-pattern that matches a proper suffix
-in the same sub-pattern.</li>
-                <li><span class="highlight">Boyer-Moore</span>This algorithm involves constructing two tables. One is Bad symbol shift table and other
-one is good Suffix Shift table.</li>
-            </ul>
-
-            <h3>8. Graph Algorithms</h3>
-            <p>Graph algorithms solve essential problems in connectivity and optimization:</p>
-            <ul>
-                <li><span class="highlight">Kruskal:</span> Finds the shortest path by visiting all nodes.</li>
-                <li><span class="highlight">Dijkstra:</span> Uses a cost matrix to find the shortest path but need not visit all nodes.</li>
-                <li><span class="highlight">Warshall:</span> Shows if there is a path from one node to another.</li>
-                <li><span class="highlight">Floyd:</span>The Floyd Algorithm is a dynamic programming method used to find the shortest paths between all pairs of vertices in a weighted graph.</li>
+    <div class="footer">&copy; 2024 Designed by Drishti R N</div>
+</body>
+</html>
