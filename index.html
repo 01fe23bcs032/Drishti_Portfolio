@@ -3,64 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://github.com/01fe23bcs032/Drishti_Portfolio/blob/main/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <title>DAA COURSE PROJECT</title>
     <style>
+        /* General Page Styles */
         body {
             background-color: #1e1e2e; /* Dark navy-purple background */
             color: #d9d7e0; /* Soft lavender text */
             font-family: 'Georgia', sans-serif; /* Modern and clean font */
-            line-height: 1.8;
+            line-height: 2.4;
             margin: 0;
             padding: 0 30px;
         }
 
         header {
             background-color: #2b2b40; /* Deep purple for the header */
-            padding: 25px;
+            padding: 30px;
             text-align: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
 
         .project-title {
-            font-size: 35px;
-            color: #c4a7e7; /* Bright lavender text */
+            font-size: 50px;
+            color: #af88df; /* Bright lavender text */
             margin: 0;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 10px 0 0;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-        }
-
-        nav ul li {
-            display: inline;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #9f7feb; /* Light purple links */
-            font-weight: bold;
-            font-size: 20px;
-            transition: color 0.3s ease, transform 0.2s ease;
-        }
-
-        nav ul li a:hover {
-            color: #861657; /* Bright pink hover color */
-            transform: translateY(-2px); /* Lift effect */
         }
 
         .highlight-box {
             background-color: #3a3a55; /* Deep purple */
             color: #d9d7e0;
-            padding: 30px;
+            padding: 20px;
             margin: 40px 0;
             text-align: center;
-            font-size: 30px;
+            font-size: 40px;
             font-weight: bold;
             border-radius: 12px;
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
@@ -80,26 +56,36 @@
             margin-top: 10px;
         }
 
-        .business-cases {
-            font-size: 40px;
-            font-weight: bold;
-            color: #d9d7e0;
-            margin: 30px 0 20px;
+        .navigation-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
         }
 
-        .section-box {
+        .nav-box {
             background-color: #2b2b40; /* Deep purple */
-            padding: 25px;
-            margin: 20px 0;
-            border-radius: 12px;
-            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+            color: #d9d7e0;
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            border-radius: 26px;
+            width: 300px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .section-box:hover {
+        .nav-box a {
+            text-decoration: none;
+            color: #9f7feb; /* Light purple links */
+        }
+
+        .nav-box:hover {
             transform: translateY(-10px);
-            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
-            background-color: #4682b4; /* Slightly blue lighter shade */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+            background-color: #861657; /* Slightly pink shade */
         }
 
         footer {
@@ -116,16 +102,8 @@
 </head>
 <body>
     <header>
-        <h1 class="project-title">DAA COURSE PROJECT</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About Project.html">Project Synopsis</a></li>
-                <li><a href="COURSE REFLECTIONS.html">Course Reflections</a></li>
-                <li><a href="RELATED SDG MAPPING.html">SDG Mapping</a></li>
-                <li><a href="implementation.html">Project Implementation</a></li>
-            </ul>
-        </nav>
+       <h1 class="project-title"><i class="fas fa-book"></i> DAA COURSE PROJECT</h1>
+
     </header>
 
     <div class="highlight-box">
@@ -134,42 +112,18 @@
 
     <p class="intro-text">I am Drishti Nagshetty, decoding challenges in the ever-fascinating realm of Computer Science, from KLE Technological University, Hubballi.</p>
 
-    <p class="business-cases">BUSINESS CASES:</p>
-
-    <div class="section-box">
-        <h2>Population Density and Data</h2>
-        <p>- Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan (referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.<br>
-           - To effectively manage Chitranagari's unique geographic and economic profile, strategic urban planning is essential. This would mainly include the proper management of population as it is still a growing city in terms of population.
-            Population Density and Data: A Closer Look
-            Chitranagari, inspired by the cultural and tourism hub of Jaipur, mirrors the vibrant mix of residents and a continuous influx of tourists. This blend of permanent inhabitants and transient visitors shapes its distinctive demographic and economic profile. The city's population density is not uniform, with high-density areas near popular attractions and more residentially focused zones in the outskirts.
-             Key Challenges and Considerations:
-                1.Dynamic Population Flux
-                2.Infrastructure and Urban Planning
-                3.Economic Implications
-</p>
+    <div class="navigation-boxes">
+        <div class="nav-box"><i class="fas fa-chart-line"></i>
+<a href="index.html">Buisness Cases</a></div>
+        <div class="nav-box"><i class="fas fa-chart-bar"></i>
+<a href="About Project.html">Project Synopsis</a></div>
+        <div class="nav-box"><i class="fas fa-lightbulb"></i> <a href="COURSE REFLECTIONS.html">Course Reflections</a></div>
+        <div class="nav-box"><i class="fas fa-bullseye"></i> <a href="RELATED SDG MAPPING.html">SDG Mapping</a></div>
+        <div class="nav-box"><i class="fas fa-tools"></i> <a href="implementation.html">Project Implementation</a></div>
     </div>
-
-    <div class="section-box">
-        <h2>Water Supply and Management</h2>
-        <p> - Located in Rajasthan, Chitranagari is a victim of extreme weather conditions that significantly influence water availability. The region experiences scorching summers, leading to high evaporation rates and increased water demand. Winters, though milder, see limited rainfall.<br>
-                - Water availability is naturally constrained due to the desert landscape, with limited surface water bodies and declining groundwater levels. Compared to other states, Rajasthan's overall water resources are significantly lower, making water a precious commodity.<br>
-                - In Chitranagari, ensuring sufficient water supply is critical to support its growing population, vibrant tourism sector, and the overall quality of life for residents.
-            For Chitranagari, ensuring an adequate water supply is not only vital for the daily needs of its growing population but also for sustaining its flourishing tourism sector. The city's unique geographic and economic profile necessitates innovative solutions such as rainwater harvesting, water recycling, and advanced irrigation techniques to mitigate scarcity.
-</p>
-    </div>
-
-    <div class="section-box">
-        <h2>Traffic Data and Management</h2>
-        <p>- Chitranagari, surrounded by a desert landscape, faces unique challenges in maintaining road infrastructure. The harsh climatic conditions, including occasional sandstorms, can degrade road surfaces over time, which not only impacts the quality of roads but also contributes to traffic congestion.<br>
-                - To accommodate the increasing population and ensure smooth transport, a systematic traffic management approach is crucial. Proper planning of road networks, allocation of dedicated lanes, and efficient traffic flow systems will be essential to decrease congestion.
-           As the city's population grows and tourism continues to thrive, the demand for efficient and reliable transportation systems intensifies. Addressing these challenges requires a multi-faceted approach to traffic management. Strategic urban planning, including the development of robust road networks and the allocation of dedicated lanes for different modes of transport, is critical. Additionally, adopting smart traffic solutions, such as real-time monitoring and adaptive signal systems, can significantly enhance traffic flow and reduce bottlenecks.
-        </p>
-    </div>
-
-    <p>For SDG mapping and related data, click below:</p>
-    <a href="https://01fe23bcs032.github.io/DrishtiNagshetty_portfolio/SDG-mapping.html" target="_blank">SDG Mapping</a>
 
     <footer>
         &copy; 2024 Drishti Nagshetty. All rights reserved.
     </footer>
 </body>
+</html>
