@@ -24,6 +24,51 @@
             margin: auto;
             padding: 20px;
         }
+       .navigation-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 5px;
+}
+
+.nav-box {
+    background: #c177b2; /* Muted pink, matching the heading color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    max-width: 200px;
+}
+
+.nav-box a {
+    color: #ffffff; /* White text for contrast */
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.nav-box i {
+    font-size: 1.8em;
+    color: #ffffff; /* White icons for contrast */
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nav-box:hover {
+    transform: translateY(-5px);
+    background: #bbc1cc; /* Light background color matching the page background */
+    color: #333; /* Darker text for contrast on hover */
+}
+
+.nav-box:hover a {
+    color: #333; /* Darker text for contrast on hover */
+}
+
+.nav-box:hover i {
+    color: #333; /* Darker icon color for hover */
+}
 
         section {
             margin-bottom: 40px;
@@ -100,6 +145,14 @@
 <body>
     <div class="container">
         <h1>CHITRANAGARI: Smart City Design</h1>
+        <div class="navigation-boxes">
+        <div class="nav-box"><i class="fas fa-chart-home"></i><a href="index.html">Home</a></div>
+        <div class="nav-box"><i class="fas fa-chart-line"></i><a href="BUISNESS CASES.html">Business Cases</a></div>
+        <div class="nav-box"><i class="fas fa-chart-bar"></i><a href="About Project.html">Project Synopsis</a></div>
+        <div class="nav-box"><i class="fas fa-lightbulb"></i><a href="COURSE REFLECTIONS.html">Course Reflections</a></div>
+        <div class="nav-box"><i class="fas fa-bullseye"></i><a href="RELATED SDG MAPPING.html">SDG Mapping</a></div>
+        <div class="nav-box"><i class="fas fa-tools"></i><a href="implementation.html">Project Implementation</a></div>
+    </div>
 
         <section>
             <h2 class="title-icon"><span class="icon">👨‍👩‍👧‍👦</span> Population Density and Data</h2>
