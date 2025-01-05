@@ -32,6 +32,54 @@
             overflow: hidden;
             max-width: 1200px;
         }
+      /* Navigation box style */
+      .navigation-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 5px;
+}
+.nav-box {
+    background: linear-gradient(45deg, #0054b4, #40e0d0); /* Updated to a dark blue */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    max-width: 200px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.nav-box a {
+    color: #ffffff; /* Updated to the cyan color */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-box i {
+    font-size: 1.8em;
+    color: #40e0d0; /* Cyan color for icon */
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nav-box:hover {
+    transform: translateY(-5px);
+    background: #40e0d0; /* Cyan background on hover */
+    color: #000;
+}
+
+.nav-box:hover a {
+    color: #000; /* Dark text color on hover */
+}
+
+.nav-box:hover i {
+    color: #000; /* Dark color for icon on hover */
+}
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -103,7 +151,14 @@
         <h1><span>🏙️👨‍👩‍👧‍👦</span> Smart City Plan: Business Case Studies Identified</h1>
     </header>
 
-    <div class="container">
+    <div class="container"> <div class="navigation-boxes">
+        <div class="nav-box"><a href="index.html">Home</a></div>
+        <div class="nav-box"><a href="BUISNESS CASES.html">Business Cases</a></div>
+        <div class="nav-box"><a href="About Project.html">Project Synopsis</a></div>
+        <div class="nav-box"><a href="COURSE REFLECTIONS.html">Course Reflections</a></div>
+        <div class="nav-box"><a href="RELATED SDG MAPPING.html">SDG Mapping</a></div>
+        <div class="nav-box"><a href="implementation.html">Project Implementation</a></div>
+    </div>
         <h2><i class="fas fa-users"></i>Population Density and Data</h2>
         <table>
             <thead>
@@ -277,4 +332,3 @@ Traffic Data and Management</h2>
     </footer>
 </body>
 </html>
-
