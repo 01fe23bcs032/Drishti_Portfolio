@@ -26,6 +26,52 @@
     transform: scale(1.1); /* Slightly enlarge the text */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add text shadow */
 }
+      .navigation-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 5px;
+}
+
+.nav-box {
+    background: #2b2b40; /* Deep purple */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    max-width: 200px;
+}
+
+.nav-box a {
+    color: #d9d7e0; /* Soft lavender */
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.nav-box i {
+    font-size: 1.8em;
+    color: #d9d7e0; /* Soft lavender */
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nav-box:hover {
+    transform: translateY(-5px);
+    background: #4682b4; /* Light blue */
+    color: #000; /* Black */
+}
+
+.nav-box:hover a {
+    color: #000; /* Black */
+}
+
+.nav-box:hover i {
+    color: #000; /* Black */
+}
+
         .section-box {
             background-color: #2b2b40; /* Deep purple */
             padding: 25px;
@@ -43,8 +89,15 @@
     </style>
 </head>
 <body>
-    <p class="business-cases">BUSINESS CASES:</p>
-
+  <p class="business-cases">BUSINESS CASES:</p> 
+<div class="navigation-boxes">
+        <div class="nav-box"><i class="fas fa-chart-home"></i><a href="index.html">Home</a></div>
+        <div class="nav-box"><i class="fas fa-chart-line"></i><a href="BUISNESS CASES.html">Business Cases</a></div>
+        <div class="nav-box"><i class="fas fa-chart-bar"></i><a href="About Project.html">Project Synopsis</a></div>
+        <div class="nav-box"><i class="fas fa-lightbulb"></i><a href="COURSE REFLECTIONS.html">Course Reflections</a></div>
+        <div class="nav-box"><i class="fas fa-bullseye"></i><a href="RELATED SDG MAPPING.html">SDG Mapping</a></div>
+        <div class="nav-box"><i class="fas fa-tools"></i><a href="implementation.html">Project Implementation</a></div>
+    </div>
     <div class="section-box">
         <h2>Population Density and Data👨‍👩‍👧‍👦</h2>
         <p>- Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan (referring to Jaipur), its population density reflects a vibrant mix of local residents, also affecting the vicinity of all the areas and a dynamic influx of visitors, creating a unique geographic and economic profile.<br>
