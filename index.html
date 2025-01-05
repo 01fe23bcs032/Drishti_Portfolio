@@ -12,7 +12,7 @@
             background-color: #1e1e2e; /* Dark navy-purple background */
             color: #d9d7e0; /* Soft lavender text */
             font-family: 'Georgia', sans-serif; /* Modern and clean font */
-            line-height: 2.4;
+            line-height: 2.0;
             margin: 0;
             padding: 0 30px;
         }
@@ -25,20 +25,44 @@
         }
 
         .project-title {
-            font-size: 50px;
+            font-size: 44px;
             color: #af88df; /* Bright lavender text */
             margin: 0;
         }
+    .content-container {
+    background-color: #2b2b40; /* Deep purple background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 80%; /* Center and constrain width */
+}
 
+.secondary-header {
+    background-color: #3a3a55; /* Slightly darker purple */
+    color: #c4a7e7; /* Bright lavender */
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+      .secondary-header:hover {
+    background-color: #861657; /* Slightly pink shade */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+    color: #fff; /* Change text color on hover */
+}
         .highlight-box {
             background-color: #3a3a55; /* Deep purple */
             color: #d9d7e0;
             padding: 20px;
-            margin: 40px 0;
+            margin: 60px 50px;
             text-align: center;
-            font-size: 40px;
+            font-size:40px;
             font-weight: bold;
-            border-radius: 12px;
+            border-radius: 2px;
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -46,7 +70,7 @@
         .highlight-box:hover {
             transform: translateY(-10px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-            background-color: #861657; /* Slightly lighter shade */
+            background-color: #a64d79; /* Slightly lighter shade */
         }
 
         .intro-text {
@@ -102,26 +126,31 @@
 </head>
 <body>
     <header>
-       <h1 class="project-title"><i class="fas fa-book"></i> DAA COURSE PROJECT</h1>
+      <h1 class="project-title">GATEWAY TO DAA COURSE PROJECT <i class="fas fa-book"></i> </h1>
 
     </header>
 
     <div class="highlight-box">
-        printf("Hello <s>World</s> Code Creators!");
+        printf("<strike>Coding Errors</strike>, Building Solutions!");
+        scanf("Input <b>Ideas</b>, Output <i>Innovation</i>!");
     </div>
 
     <p class="intro-text">I am Drishti Nagshetty, decoding challenges in the ever-fascinating realm of Computer Science, from KLE Technological University, Hubballi.</p>
-
+    
+<div class="content-container">
+    <div class="secondary-header">
+        <header class="secondary-header">
+        <h2>"Embarking on a Journey Under the Bright Sun of CHITRANAGARI(Rajasthan)<span>👇🏻🛣️☀️</span></h2>
+    </div>
     <div class="navigation-boxes">
-        <div class="nav-box"><i class="fas fa-chart-line"></i>
-<a href="BUISNESS CASES.html">Buisness Cases</a></div>
-        <div class="nav-box"><i class="fas fa-chart-bar"></i>
-<a href="About Project.html">Project Synopsis</a></div>
+        
+        <div class="nav-box"><i class="fas fa-chart-line"></i><a href="BUISNESS CASES.html">Buisness Cases</a></div>
+        <div class="nav-box"><i class="fas fa-chart-bar"></i><a href="About Project.html">Project Synopsis</a></div>
         <div class="nav-box"><i class="fas fa-lightbulb"></i> <a href="COURSE REFLECTIONS.html">Course Reflections</a></div>
         <div class="nav-box"><i class="fas fa-bullseye"></i> <a href="RELATED SDG MAPPING.html">SDG Mapping</a></div>
         <div class="nav-box"><i class="fas fa-tools"></i> <a href="implementation.html">Project Implementation</a></div>
     </div>
-
+</div>
     <footer>
         &copy; 2024 Drishti Nagshetty. All rights reserved.
     </footer>
