@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chitranagari: Smart City Design</title>
     <style>
+        /* General Page Styles */
         body {
-            background: linear-gradient(135deg, #5f0f40, #3a3d5f, #310e68);
+            background: linear-gradient(135deg, #d3d3d3, #);
             color: #ffffff;
             font-family: 'Georgia', sans-serif;
             margin: 0;
@@ -14,142 +15,152 @@
         }
 
         h1 {
-    color: #e056fd;
-    font-size: 2.9em;
-    text-align: center;
-    margin-top: 30px;
-    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
-}
-
-h1:hover {
-    color: #7ed6df; /* Change color to gold */
-    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.7); /* Add a glowing effect */
-    transform: scale(1.1); /* Slightly enlarge the text */
-}
-
-        h2 {
-            color: #ffd700;
-            font-size: 2.2em;
-            margin-top: 30px;
+            text-align: center;
+            color: #a64d79;
+            font-size: 3.2em;
+            margin-top: 40px;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
         }
 
-        h3 {
-            color: #00ced1;
-            font-size: 1.8em;
-            margin-bottom: 10px;
-        }
-
-        p, ul {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-            transition: transform 0.2s, color 0.2s;
-        }
-
-        li:hover {
-            transform: scale(1.05);
-            color: #ff4500;
+        h1:hover {
+            color: #741b47;
+            transform: scale(1.1);
+            text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.7);
         }
 
         .section {
-            margin: 20px auto;
-            padding: 20px;
-            max-width: 800px;
-            background: #E6E6FA; /* Lavender color */
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 60px auto;
+            padding: 30px;
+            max-width: 1000px;
+            border-radius: 42px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
         }
 
-        .section h2, .section h3, .section p {
-            color: #800080; /* Purple color for text */
+        .section:nth-child(even) {
+            background: #741b47; /* Dark purple */
+        }
+
+        .section:nth-child(odd) {
+            background: #741b47; /* Slightly lighter shade */
+        }
+
+        .section h2 {
+            color: #7ED6DF;
+            font-size: 2.7em;
+            margin-bottom: 25px;
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
         }
 
-        .section:hover {
-            background: #D8BFD8; /* Slightly darker lavender on hover */
-            transform: translateY(-5px);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        .section h3 {
+            color: #7ED6DF;
+            font-size: 1.6em;
+            margin-top: 20px;
+        }
+
+        .section ul {
+            padding-left: 40px;
+            list-style-type: none;
+        }
+
+        .section li {
+            margin: 15px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+        }
+
+        .section li:hover {
+            transform: translateX(10px);
+            background: #7ED6DF;
+            color: #000;
+        }
+
+        hr {
+            border: none;
+            height: 10px;
+            background: #7ED6DF;
+            margin: 30px 0;
         }
 
         a {
-            color: #ffd700;
+            color: #7ED6DF;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
         }
 
         a:hover {
+            color: #7ED6DF;
             text-decoration: underline;
-            color: #ff6347;
-        }
-
-        hr {
-            border: none;
-            height: 2px;
-            background: #ff7f50;
-            margin: 20px 0;
         }
 
         .footer {
             text-align: center;
-            padding: 10px;
-            font-size: 0.9em;
+            padding: 15px;
             background: #1e1e2f;
-            color: #7f7f9f;
+            color: #b8b8d0;
+            font-size: 1em;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .highlight {
+            margin: 15px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+        }
+
+        .highlight:hover {
+            transform: translateX(10px);
+            background: #7ED6DF;
+            color: #000;
         }
     </style>
 </head>
 <body>
     <h1>CHITRANAGARI: SMART CITY DESIGN</h1>
-    
-    <div class="section">
-        <h2>Business Cases Identified by Drishti R N (01FE23BCS032)</h2>
-
-        <h3>1. Population Density and Data 👨‍👩‍👧‍👦</h3>
-        <p>Since CHITRANAGARI is known to draw inspiration from a culturally and tourism-rich city in Rajasthan (referring to Jaipur), its population density reflects a vibrant mix of local residents and a dynamic influx of visitors, creating a unique geographic and economic profile. Strategic urban planning is essential to manage its growing population effectively.</p>
-
-        <h3>2. Water Supply and Management 🌦️</h3>
-        <p>Located in Rajasthan, Chitranagari faces extreme weather conditions affecting water availability. The desert landscape, with limited surface water bodies and declining groundwater levels, makes water management critical to support its growing population and tourism sector.</p>
-
-        <h3>3. Traffic Data and Management 🚦</h3>
-        <p>Harsh climatic conditions and occasional sandstorms challenge road infrastructure in Chitranagari. Systematic traffic management and proper planning of road networks are vital to reduce congestion and ensure smooth transportation.</p>
-    </div>
-
-    <hr>
 
     <div class="section">
-        <h2>Related SDG's, Targets, and Indicators</h2>
-
-       <h3>Population Density and Data</h3>
+        <h2>Population Density and Data</h2>
+        <h3>Relevant SDG</h3>
+        <p><strong>Goal 11:</strong> Sustainable Cities and Communities</p>
+        <h3>Target</h3>
+        <p class="highlight">By 2030, ensure access for all to adequate, safe, and affordable housing and basic services and upgrade slums.</p>
+        <h3>Indicator</h3>
         <ul>
-           <li><strong>SDG Goal-11:</strong> Sustainable Cities and Communities</li>
-            <li><strong>Target 11.1:</strong> By 2030, ensure access for all to adequate, safe, and affordable housing and basic services and upgrade slums.</li>
-            <li><strong>Indicator 11.1.1:</strong> Proportion of urban population living in slums, informal settlements, or inadequate housing.</li>
-        </ul>
-
-        <h3>Water Supply and Management</h3>
-        <ul>
-           <li><strong>SDG Goal-11:</strong> Sustainable Cities and Communities</li>
-            <li><strong>Target 11.5:</strong> By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.</li>
-            <li><strong>Indicator 11.5.1:</strong>Number of deaths, missing persons, and directly affected persons attributed to disasters per 100,000 population.</li>
-        </ul>
-
-        <h3>Traffic Management and Data</h3>
-        <ul>
-            <li><strong>SDG Goal-11:</strong> Sustainable Cities and Communities</li>
-            <li><strong>Target 11.2:</strong> By 2030, provide access to safe, affordable, and sustainable transport systems for all.</li>
-            <li><strong>Indicator 11.2.1:</strong> Proportion of population with convenient access to public transport.</li>
+            <li>Proportion of urban population living in slums, informal settlements, or inadequate housing.</li>
         </ul>
     </div>
 
-    <div class="footer">&copy; 2024 Designed by Drishti R N</div>
+    <div class="section">
+        <h2>Water Supply and Management</h2>
+        <h3>Relevant SDG</h3>
+        <p><strong>Goal 11:</strong> Sustainable Cities and Communities</p>
+        <h3>Target</h3>
+        <p class="highlight">By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.</p>
+        <h3>Indicator</h3>
+        <ul>
+            <li>Number of deaths, missing persons, and directly affected persons attributed to disasters per 100,000 population.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Traffic Management and Data</h2>
+        <h3>Relevant SDG</h3>
+        <p><strong>Goal 11:</strong> Sustainable Cities and Communities</p>
+        <h3>Target</h3>
+        <p class="highlight">By 2030, provide access to safe, affordable, and sustainable transport systems for all.</p>
+        <h3>Indicator</h3>
+        <ul>
+            <li>Proportion of population with convenient access to public transport.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Designed by Drishti R N
+    </div>
 </body>
 </html>
